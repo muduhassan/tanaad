@@ -1,0 +1,59 @@
+{
+  "welcome": "Ku soo dhawoow",
+  "login": {
+    "title": "Galitaanka",
+    "pin": "Furaha PIN",
+    "submit": "Gali"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "summary": "Dulmar",
+    "settings": "Dejinta"
+  },
+  "ledgers": {
+    "neighborInventory": {
+      "title": "Kaydka Deriska",
+      "borrowed": "Waxaan ka amaahanay",
+      "lent": "Waxaan siinnay"
+    },
+    "neighborCash": {
+      "title": "Lacagta Deriska",
+      "amount": "Qaddarka",
+      "debt": "Deym"
+    },
+    "customerVault": {
+      "title": "Bangalada Macaamiisha",
+      "currentBalance": "Iskaashiga Hadda",
+      "deduct": "Ka jar"
+    },
+    "shopOperations": {
+      "title": "Hawlgallada Dukaanka",
+      "category": "Qaybta",
+      "amount": "Qaddarka",
+      "note": "Xusuusin"
+    },
+    "dailyPreset": {
+      "title": "Kaydka Maalinlaha",
+      "staffLunch": "Qado Shaqaalaha",
+      "staffTransport": "Gaadiidka Shaqaalaha"
+    }
+  },
+  "alerts": {
+    "milkAlarm": "Ma waxaad dhigtay milk delivery?",
+    "breadAlarm": "Ma waxaad dhigtay bread delivery?",
+    "checkpoint": "Ma hilmaantay kharash?"
+  },
+  "actions": {
+    "addEntry": "Ku dar Qoraal",
+    "confirm": "Xaqiiji",
+    "cancel": "Jooji"
+  },
+  "errors": {
+    "network": "Xiriirka shabakadda ma shaqeynayo",
+    "unexpectedShutdown": "Dukaanka ayaa si lama filaan ah u xirmay"
+  },
+  "success": {
+    "entryAdded": "Qoraalka waa la ku daray",
+    "settingsSaved": "Dejinta waa la keydiyay"
+  }
+}

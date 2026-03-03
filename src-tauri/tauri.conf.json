@@ -1,0 +1,34 @@
+{
+  "tauri": {
+    "bundle": {
+      "identifier": "com.shopguard.floatingledger",
+      "icon": [
+        "icons/icon.png"
+      ],
+      "resources": [],
+      "copyright": "Copyright © 2023 Shop Guard",
+      "version": "1.0.0",
+      "description": "Shop Guard - The Floating Ledger"
+    },
+    "updater": {
+      "active": false
+    },
+    "tauri": {
+      "allowlist": {
+        "all": true
+      }
+    },
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "menu": [
+        {
+          "id": "quit",
+          "title": "Quit"
+        }
+      ]
+    },
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self';"
+    }
+  }
+}

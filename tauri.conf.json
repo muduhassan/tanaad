@@ -1,0 +1,33 @@
+{
+  "tauri": {
+    "bundle": {
+      "identifier": "com.shopguard.floatingledger",
+      "icon": [
+        "icons/icon.png"
+      ],
+      "resources": [],
+      "copyright": "Copyright © 2023 Your Name",
+      "version": "1.0.0",
+      "description": "Shop Guard – The Floating Ledger application for managing shop operations."
+    },
+    "updater": {
+      "active": false
+    },
+    "tauri": {
+      "allowlist": {
+        "all": true
+      }
+    },
+    "build": {
+      "beforeBuildCommand": "",
+      "beforeDevCommand": "",
+      "devPath": "../src",
+      "distDir": "../dist"
+    },
+    "package": {
+      "productName": "Shop Guard – The Floating Ledger",
+      "version": "1.0.0",
+      "description": "A lightweight application for managing shop operations."
+    }
+  }
+}

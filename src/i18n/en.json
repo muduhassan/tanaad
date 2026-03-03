@@ -1,0 +1,68 @@
+{
+  "app": {
+    "title": "Shop Guard - The Floating Ledger",
+    "description": "A lightweight ledger system for tracking shop operations.",
+    "login": {
+      "username": "Username",
+      "password": "Password",
+      "pin": "Enter your PIN",
+      "loginButton": "Login",
+      "language": "Select Language"
+    },
+    "dashboard": {
+      "welcome": "Welcome to the Admin Dashboard",
+      "dailySummary": "Daily Summary",
+      "pendingApprovals": "Pending Approvals",
+      "ledgerStatus": "Ledger Status"
+    },
+    "ledgers": {
+      "neighborInventory": {
+        "title": "Neighbor Inventory",
+        "borrowed": "We Borrowed",
+        "lent": "They Borrowed",
+        "searchItem": "Search for an item",
+        "selectNeighbor": "Select Neighbor"
+      },
+      "neighborCash": {
+        "title": "Neighbor Cash",
+        "enterAmount": "Enter Amount",
+        "selectNeighbor": "Select Neighbor"
+      },
+      "customerVault": {
+        "title": "Customer Vault",
+        "currentBalance": "Current Balance",
+        "deduct": "Deduct Amount"
+      },
+      "shopOperations": {
+        "title": "Shop Operations",
+        "selectCategory": "Select Category",
+        "enterAmount": "Enter Amount",
+        "note": "Optional Note"
+      },
+      "dailyPreset": {
+        "title": "Daily Preset",
+        "staffLunch": "Staff Lunch",
+        "staffTransport": "Staff Transport"
+      }
+    },
+    "alerts": {
+      "milkAlarm": "Did you post the Milk delivery to the POS?",
+      "breadAlarm": "Did you post the Bread delivery to the POS?",
+      "checkpoint": "Did you forget an expense?",
+      "closingChecklist": "Prompt closing checklist."
+    },
+    "buttons": {
+      "goodsReceived": "Goods Received & Posted",
+      "nothingToAdd": "Nothing to Add",
+      "addExpense": "Add Expense Now"
+    },
+    "errors": {
+      "networkLost": "Network Lost / Power Outage",
+      "unexpectedShutdown": "Unexpected Shutdown - Check Shop Status",
+      "setupNotResponding": "Setup not responding"
+    },
+    "success": {
+      "shopClosed": "Shop Closed Successfully - Daily Total Summary"
+    }
+  }
+}

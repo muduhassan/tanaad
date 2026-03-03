@@ -1,0 +1,71 @@
+/*******************************************************************************
+Bubble Component Styles
+*******************************************************************************/
+
+.bubble {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue; /* Normal state */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.bubble:hover {
+    background-color: lightblue; /* Hover effect */
+}
+
+.bubble.orange {
+    background-color: orange; /* Hourly Checkpoint state */
+}
+
+.bubble.purple {
+    background-color: purple; /* Operational Alarm state */
+}
+
+.bubble.red {
+    background-color: red; /* Critical Alert state */
+}
+
+.bubble .icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.panel {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    display: none; /* Hidden by default */
+    z-index: 1001;
+}
+
+.panel.active {
+    display: block; /* Show when active */
+}
+
+.panel-header {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+}
+
+.panel-content {
+    padding: 10px;
+}

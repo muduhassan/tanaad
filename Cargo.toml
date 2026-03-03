@@ -1,0 +1,20 @@
+[package]
+name = "shop-guard-floating-ledger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tauri = { version = "1.0", features = ["api", "http"] }
+sqlx = { version = "0.5", features = ["sqlite", "runtime-async-std", "macros"] }
+sqlcipher = { version = "0.5", features = ["sqlcipher"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+dotenv = "0.15"
+hmac = "0.11"
+sha2 = "0.10"
+thiserror = "1.0"
+log = "0.4"
+chrono = "0.4"
+rpassword = "0.11"

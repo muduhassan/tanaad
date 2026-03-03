@@ -1,0 +1,41 @@
+{
+  "installer": {
+    "name": "Shop Guard - The Floating Ledger",
+    "version": "1.0.0",
+    "description": "A lightweight, offline-first ledger system for shop management.",
+    "author": "Your Name",
+    "license": "MIT",
+    "platforms": [
+      {
+        "name": "Windows",
+        "installer": "installer/nsis/installer.nsi"
+      },
+      {
+        "name": "macOS",
+        "installer": "installer/mac/pkg-scripts"
+      }
+    ],
+    "usb": {
+      "autoRun": true,
+      "icon": "path/to/icon.ico",
+      "files": [
+        {
+          "source": "path/to/source/file",
+          "destination": "path/on/usb"
+        }
+      ]
+    }
+  },
+  "settings": {
+    "autoStart": {
+      "windows": "scripts/register-autostart-windows.ps1",
+      "mac": "scripts/register-autostart-macos.sh"
+    },
+    "language": ["en", "so"],
+    "telegram": {
+      "enabled": true,
+      "botToken": "YOUR_BOT_TOKEN",
+      "chatId": "YOUR_CHAT_ID"
+    }
+  }
+}
